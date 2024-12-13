@@ -1,0 +1,658 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    background-color: purple;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .imag .header-img {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color:aliceblue;
+    margin-left: 15px;
+}
+
+header .imag .header-img img {
+    width: 50px;
+    height: 50px;
+    border-radius: 40%;
+}
+ nav {
+        color: white;
+        align-items: center;
+        text-align: center;
+        margin-top: 15px;
+
+        i {
+            font-size: 19px;
+            margin-right: 14px;
+        }
+    }
+
+
+section.image-carousel {
+    padding-top: 69px;
+    height: px;
+    overflow-y: hidden;
+
+    div.carousel {
+        height: 100%;
+
+        div.carousel-item {
+
+
+            height: 100%;
+
+            img {
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+
+
+.transfer-money {
+    h6 {
+        font-weight: bold;
+        margin-left: 20px;
+    }
+
+    margin-top: 20px;
+
+    /* background-color: rgb(151, 125, 125); */
+    .money-icon {
+        .icons {
+            display: flex;
+            justify-content: space-between;
+
+            .icon-1 {
+                align-items: center;
+                text-align: center;
+                margin-right: 15px;
+                margin-left: 15px;
+                margin-top: 20px;
+
+                /* background-color: blueviolet; */
+                .bi-person-circle {
+
+                    padding: 10px;
+                    align-items: center;
+                    border-radius: 12px;
+                    color: white;
+                    background-color: blueviolet;
+                }
+
+                .bi-bank {
+                    padding: 10px;
+                    align-items: center;
+                    border-radius: 12px;
+                    color: white;
+                    background-color: blueviolet;
+                }
+
+                .bi-arrow-down-circle {
+                    padding: 10px;
+                    align-items: center;
+                    border-radius: 12px;
+                    color: white;
+                    background-color: blueviolet;
+                }
+
+                i {
+                    font-size: 20px;
+
+                }
+
+                .icon-text {
+                    margin-top: 15px;
+                    font-size: small;
+                }
+            }
+        }
+
+    }
+}
+
+.input {
+    display: flex;
+    margin-top: 20px;
+
+    p {
+        border: 1px solid;
+        margin-left: 10px;
+        width: 150px;
+        text-align: center;
+        border-radius: 6px;
+
+        a {
+            font-size: x-small;
+            font-weight: bold;
+        }
+    }
+
+    small {
+        border: 1px solid;
+        height: 26px;
+        width: 60%;
+        margin-left: 30px;
+        border-radius: 6px;
+
+        .bi-chevron-right {
+            margin-left: 90px;
+            font-weight: bold;
+            font-size: 16px;
+
+
+        }
+
+        .bi-qr-code {
+            margin-left: 9px;
+        }
+
+    }
+}
+
+.wallet {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    /* width: 50%; */
+
+    .wallet-icon {
+        display: flex;
+        margin-left: 2px;
+        margin-right: 5px;
+        background-color: white;
+        border-radius: 9px;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        /* width: 90%; */
+
+        .icon-1 {
+            display: flex;
+            /* margin-top: 90px; */
+            margin-left: 10px;
+            margin-right: 10px;
+            /* margin-top: 10px; */
+            /* width: 100%; */
+            /* text-align: center; */
+            /* align-items: center; */
+
+            .bi-wallet2 {
+                /* background-color: bisque; */
+                margin-right: 25px;
+                align-items: center;
+                text-align: center;
+                /* margin-top: 15px; */
+                font-size: 20px;
+                font-size: 20px;
+                color: purple;
+
+            }
+
+            .bi-megaphone {
+                margin-right: 25px;
+                align-items: center;
+                text-align: center;
+                margin-top: 20px;
+                font-size: 20px;
+                color: purple;
+                /* margin-top: 30px; */
+
+            }
+
+            .bi-gift {
+                font-size: 20px;
+                color: purple;
+                margin-right: 25px;
+                align-items: center;
+                text-align: center;
+                /* margin-top: 15px; */
+                font-size: 20px;
+
+
+            }
+
+        }
+    }
+}
+
+.transfer-money-1 {
+    background-color: whitesmoke;
+    
+    margin-left: 7px;
+    margin-right: 7px;
+    border-radius: 20px;
+    margin-top: 10px;
+    height: 150px;
+
+
+    .div {
+
+        display: flex;
+        justify-content: space-between;
+        margin-right: 40px;
+
+        button {
+            margin-top: 10px;
+            padding-left: 8px;
+            border: 0;
+            background-color: rgb(213, 165, 213);
+            padding-right: 8px;
+            border-radius: 4px;
+            font-size: x-small;
+        }
+
+        h6 {
+            margin-top: 10px;
+            margin-left: 5px;
+        }
+
+    }
+
+    .money-icon {
+        /* margin-left: 5px; */
+
+
+        .icons {
+            display: flex;
+            justify-content: space-between;
+
+            .icon-1 {
+                align-items: center;
+                text-align: center;
+                margin-right: 15px;
+                margin-left: 15px;
+                margin-top: 20px;
+                
+
+                /* background-color: blueviolet; */
+                .bi-suitcase-lg {
+
+                    padding: 10px;
+                    align-items: center;
+                    border-radius: 12px;
+                    color: blueviolet;
+
+                }
+
+                .bi-tablet {
+                    padding: 10px;
+                    align-items: center;
+                    border-radius: 12px;
+                    color: blueviolet;
+
+                }
+
+                .bi-credit-card {
+                    padding: 10px;
+                    align-items: center;
+                    border-radius: 12px;
+                    color: blueviolet;
+                }
+
+                .bi-house-add-fill {
+                    padding: 10px;
+                    align-items: center;
+                    border-radius: 12px;
+                    color: blueviolet;
+                    /* background-color: blueviolet; */
+                }
+
+                i {
+                    font-size: 20px;
+
+                }
+
+                .icon-text {
+                    margin-top: 15px;
+                    font-size: ;
+                    /* font-weight: bold; */
+                }
+            }
+        }
+
+    }
+}
+.bi-hospital{
+    padding: 10px;
+    align-items: center;
+    border-radius: 12px;
+    color: blueviolet;
+
+}
+.bi-train-front{
+    padding: 10px;
+    align-items: center;
+    border-radius: 12px;
+    color: blueviolet;
+}
+.bi-bus-front{
+    padding: 10px;
+    align-items: center;
+    border-radius: 12px;
+    color: blueviolet;
+
+}
+.bi-airplane-engines-fill{
+    padding: 10px;
+    align-items: center;
+    border-radius: 12px;
+    color: blueviolet;
+
+}
+.bi-file-arrow-up-fill{
+    padding: 10px;
+    align-items: center;
+    border-radius: 12px;
+    color: blueviolet;
+
+
+}
+.bi-duffle-fill{
+    padding: 10px;
+    align-items: center;
+    border-radius: 12px;
+    color: blueviolet;
+
+}
+.bi-1-circle-fill{
+    padding: 10px;
+    align-items: center;
+    border-radius: 12px;
+    color: blueviolet;
+
+
+}
+.bi-repeat-1{
+    padding: 10px;
+    align-items: center;
+    border-radius: 12px;
+    color: blueviolet;
+
+
+}
+.bi-activity{
+    padding: 10px;
+    align-items: center;
+    border-radius: 12px;
+    color: blueviolet;
+
+
+}
+.bi-clipboard-heart{
+    padding: 10px;
+    align-items: center;
+    border-radius: 12px;
+    color: blueviolet;
+
+
+
+}
+.bi-bicycle{
+    padding: 10px;
+    align-items: center;
+    border-radius: 12px;
+    color: blueviolet;
+}
+.bi-car-front{
+    padding: 10px;
+    align-items: center;
+    border-radius: 12px;
+    color: blueviolet;
+
+}
+.bi-cash-stack{
+    padding: 10px;
+    align-items: center;
+    border-radius: 12px;
+    color: blueviolet;
+}
+.bi-nut{
+    padding: 10px;
+    align-items: center;
+    border-radius: 12px;
+    color: blueviolet;
+
+}
+.bi-speedometer{
+    padding: 10px;
+    align-items: center;
+    border-radius: 12px;
+    color: blueviolet;
+
+
+}
+.div-3-slider{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.div-3-slider{
+    section.image-carousel {
+        padding-top: 0px;
+        height: px;
+        overflow-y: hidden;
+    
+        div.carousel {
+            height: 100%;
+    
+            div.carousel-item {
+    
+    
+                height: 100%;
+    
+                img {
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+    
+    
+    
+    
+
+}
+.bi-taxi-front-fill{
+    padding: 10px;
+    align-items: center;
+    border-radius: 12px;
+    color: blueviolet;
+
+}
+.bi-bus-front-fill{
+    padding: 10px;
+    align-items: center;
+    border-radius: 12px;
+    color: blueviolet;
+
+
+}
+.extra-img{
+    img{
+        width: 40px;
+        height: 30px;
+        border-radius: 8px;
+    }
+}
+.bi-fullscreen-exit{
+    padding: 10px;
+    align-items: center;
+    border-radius: 12px;
+    color: rgb(129, 37, 215);
+}
+.bi-pin-map{
+    padding: 10px;
+    align-items: center;
+    border-radius: 12px;
+    color: rgb(13, 175, 13);
+}
+
+.bi-usb-micro-fill{
+    padding: 10px;
+    align-items: center;
+    border-radius: 12px;
+    color: green;
+
+}
+.bi-shop-window{
+    padding: 10px;
+    align-items: center;
+    border-radius: 12px;
+    color: blueviolet;
+}
+ .bi-caret-right-fill{
+    padding:10px;
+    align-items:center;
+    color:blueviolet;
+    border-radius: 12px;
+}
+.bi-database-fill-add{
+    padding:10px;
+    align-items: center;
+    color:blueviolet;
+    border-radius: 12px;
+}
+ .bi-gift-fill{
+    padding:10px;
+    align-items:center;
+    color:blueviolet;
+    border-radius: 12px;
+
+}
+
+
+ .bi-building-fill-check{
+    padding:10px;
+    align-items: center;
+    border-radius:12px ;
+    color:blueviolet;
+}
+footer{
+    height: 80px;
+    /* margin-top: 900px; */
+    /* padding-top: 200px; */
+    position: fixed;
+    width: 100%;
+    background-color: azure;
+    bottom: 0;
+    .footer-icon{
+    
+        .fotter-icon{
+            
+            .icon{
+                display: flex;
+                justify-content: space-around;
+                background-color: white;
+            .bi-house-door-fill{
+                 font-size: 20px;
+                 
+            }
+            .scanner{
+                font-size: 30px;
+                padding: 1.6%;
+                /* height: 40px; */
+                align-items: center;
+                margin-top: 0;
+                align-items: center;
+                height:60px;
+                width:47px;
+                border-radius: 100%;
+                color: white;
+                margin-bottom: 90px;
+                /* margin-bottom: 550px; */
+                background-color: blueviolet;
+                .bi-qr-code-scan{
+                    margin-top: 0px;
+                    /* margin-bottom: 20px; */
+                    /* background-color: black; */
+                    /* margin-bottom: 30px; */
+
+                }
+                
+            }
+            .bi-arrow-left-right{
+                font-size: 16px;
+            }
+           
+            }
+            
+        }
+    }
+}
+.items{
+    font-size: x-small;
+    margin-top: 31px;
+
+}
+.div-1{
+    .img-div{
+        img{
+            width: 90%;
+            margin-bottom: 90px;
+            margin-top: 10px;
+            margin-right: 19px;
+            margin-left: 19px;
+            border-radius: 10px;
+        }
+    }
+}
+@media screen and (max-width: 480px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav {
+        margin-top: 5px;
+    }
+
+    .wallet {
+      /* max-width: 70%; */
+    }
+
+    .wallet .wallet-icon {
+        width: 90%; /* Adjust wallet to fit smaller screens */
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .transfer-money-1 {
+        height: auto; /* Let it adjust based on content */
+    }
+
+    .transfer-money-1 .div {
+        flex-direction: column; /* Stack content vertically */
+        align-items: center;
+    }
+
+    .transfer-money-1 .div button {
+        width: 80%; /* Make buttons fit nicely on smaller screens */
+    }
+    
+    footer .footer-icon .fotter-icon .icon {
+        flex-direction: column;
+    }
+    
+    .img-div img {
+        width: 90%; /* Adjust image width for smaller screens */
+        margin-left: 5%;
+    }
+
+    .input small {
+        width: 90%;
+        margin-left: 5%;
+    }
+}
